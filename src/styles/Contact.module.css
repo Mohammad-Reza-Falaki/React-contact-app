@@ -1,0 +1,35 @@
+.contact {
+    background-color: azure;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 10px 20px;
+}
+
+.contact p {
+    margin-left: 20px;
+}
+
+.delete {
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+
+.delete:hover {
+    background-color: bisque;
+}
+
+@media (max-width: 800px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact p {
+        margin: 10px 0px
+    }
+}

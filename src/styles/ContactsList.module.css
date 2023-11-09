@@ -1,0 +1,51 @@
+.contacts {
+    margin: 100px auto;
+}
+
+.listTitle {
+    font-size: 1.6rem;
+    color: #304ffe;
+    margin: 10px auto;
+    width: 60%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(240, 239, 231);
+    margin: 0px auto;
+    width: 60%;
+    box-shadow: 1px 3px 10px silver;
+    border-radius: 12px;
+}
+
+.list h2 {
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0px auto;
+    background-color: aquamarine;
+}
+
+.contact p {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 800px) {
+    .list {
+        width: 75%;
+    }
+
+    .listTitle {
+        width: 75%;
+    }
+}
